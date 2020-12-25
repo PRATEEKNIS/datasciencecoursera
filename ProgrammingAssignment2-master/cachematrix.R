@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
   }
   get<-function() x
   setmat<-function(matx) im<<-matx
-  getmat<function() im
+  getmat<-function() im
   list(set=set,get=get,setmat=setmat,getmat=getmat)
 }
 
